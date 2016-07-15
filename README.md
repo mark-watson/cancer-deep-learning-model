@@ -1,5 +1,7 @@
 # Example TensorFlow Deep Neural Network using Breast Cancer Data
 
+This model is trained on 497 training examples and is tested for accuracy on 151 different testing examples. The accuracy is about 97%.
+
 I assume that you have TensorFlow installed. Since I installed TensorFlow
 using Anaconda, I run the example using:
 
