@@ -8,9 +8,13 @@ I assume that you have TensorFlow installed. Since I installed TensorFlow
 using Anaconda, I run the example using:
 
 ````````
-~/cognitive_computing_book_examples/tensorflow_examples/cancer_deep_learning_model$ source activate tensorflow
-(tensorflow) ~/cognitive_computing_book_examples/tensorflow_examples/cancer_deep_learning_model$ python cancer_trainer.py
+$ source activate tensorflow
+(tensorflow) $ python cancer_trainer.py
 ````````
+
+### Note: new version that uses Keras available
+
+The [github repository for my book "Introduction to Cognitive Computing"](https://github.com/mark-watson/cognitive-computing-book) contains a newer version of this example that uses Keras and TensorFlow 1.3. The code in this repo was written for TensorFlow 0.13
 
 # Universary of Wisconcin Cancer Data
 
