@@ -39,7 +39,8 @@ For example:
 ````````
 ## A version of this code was used in a book I wrote
 
-The [github repository for my book "Introduction to Cognitive Computing"](https://github.com/mark-watson/cognitive-computing-book) contains a newer version of this example that uses Keras and TensorFlow 1.3. The code in this repo was written for TensorFlow 0.13
+The [github repository for my book "Introduction to Cognitive Computing"](https://github.com/mark-watson/cognitive-computing-book)
+contains an older version of this example.
 
 # Universary of Wisconcin Cancer Data
 
