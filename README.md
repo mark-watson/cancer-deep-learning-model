@@ -1,18 +1,43 @@
-# Example TensorFlow Deep Neural Network using Breast Cancer Data
+# Keras Deep Neural Network using Breast Cancer Data with Explanation of Predictions
 
 This model is trained on 497 training examples and is tested for accuracy on 151 different testing examples. The accuracy is about 97%.
 
-The Python example code provids a simple example of using CSV data files with TensorFlow and training a model with three hidden layers.
+The Python example code provides a simple example of using CSV data files with TensorFlow and training a model with three hidden layers.
 
-I assume that you have TensorFlow installed. Since I installed TensorFlow
-using Anaconda, I run the example using:
+I assume that you have Keras and TensorFlow installed.
+
+## Uses the IntegratedVarients library to explain predictions made by a trained model
+
+Please [read this excellent paper](https://arxiv.org/pdf/1703.01365.pdf)
+by Mukund Sundararajan, Ankur Taly, and Qiqi Yan
+
+When making a prediction, you can get a scaling of which input features most contributed to a classifiaction made by the model.
+
+For example:
 
 ````````
-$ source activate tensorflow
-(tensorflow) $ python cancer_trainer.py
+** Contributions to classification for sample type  benign sample  **
+	 Clump Thickness :	 -15
+	 Uniformity of Cell Size :	 19
+	 Uniformity of Cell Shape :	 -5
+	 Marginal Adhesion :	 -15
+	 Single Epithelial Cell Size :	 -100
+	 Bare Nuclei :	 -5
+	 Bland Chromatin :	 -70
+	 Normal Nucleoli :	 -5
+	 Mitoses :	 9
+** Contributions to classification for sample type  malignant sample  **
+	 Clump Thickness :	 27
+	 Uniformity of Cell Size :	 8
+	 Uniformity of Cell Shape :	 15
+	 Marginal Adhesion :	 -21
+	 Single Epithelial Cell Size :	 -8
+	 Bare Nuclei :	 100
+	 Bland Chromatin :	 20
+	 Normal Nucleoli :	 5
+	 Mitoses :	 3
 ````````
-
-### Note: new version that uses Keras available
+## A version of this code was used in a book I wrote
 
 The [github repository for my book "Introduction to Cognitive Computing"](https://github.com/mark-watson/cognitive-computing-book) contains a newer version of this example that uses Keras and TensorFlow 1.3. The code in this repo was written for TensorFlow 0.13
 
