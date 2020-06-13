@@ -6,6 +6,10 @@ The Python example code provides a simple example of using CSV data files with T
 
 I assume that you have Keras and TensorFlow installed.
 
+## Donate on Patreon to support all of my projects
+
+Please visit [https://www.patreon.com/markwatson](https://www.patreon.com/markwatson) and sign up to donate $1/month
+
 ## Uses the IntegratedVarients library to explain predictions made by a trained model
 
 Please [read this excellent paper](https://arxiv.org/pdf/1703.01365.pdf)
